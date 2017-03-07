@@ -4,4 +4,7 @@
 2-Allowing creation of snapshots:
     # hdfs dfsadmin -allowSnapshot  /precious
 
-3-
+3-Copying the required file to precious:
+     #hdfs dfs -put /tmp/SEBC.zip /precious
+
+4-

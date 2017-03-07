@@ -8,6 +8,6 @@
   #hdfs dfs -put /tmp/SEBC.zip /precious
 
 4-Creating a Snapshot
-   #hdfs dfs -createSnapshot /precious first-snapshot
+   #hdfs dfs -createSnapshot /precious sebc-hdfs-test
    
 

@@ -1,0 +1,7 @@
+1- Create "precious" directory
+    #hdfs dfs -mkdir -p /precious
+
+2-Allowing creation of snapshots:
+    # hdfs dfsadmin -allowSnapshot  /precious
+
+3-

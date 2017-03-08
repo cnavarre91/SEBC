@@ -1,4 +1,4 @@
-1 -What is ubertask optimization?
+1 -What is ubertask optimization? 
 
 Ubertask: certain 'small tasks' suc as ==> 
 "By default a job that has less than 10 mappers only and one reducer, and the input size is less than the size of one HDFS block is said to be small job. 

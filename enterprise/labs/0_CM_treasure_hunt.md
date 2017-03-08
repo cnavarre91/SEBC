@@ -34,3 +34,13 @@ ZooKeeper
  HiveServer2
  WebHCat Server
  
+7 -What steps must be completed before integrating Cloudera Manager with Kerberos?
+Must be configured/installed:
+  #Key Configuration Manager
+  #Check if the Key Configuration Manager is configured to have non-zero ticket lifetime and renewal lifetime
+  #Installing OpenLdap libraries on CM Server (#openldap-clients)
+  #Installing  Kerberos client libraries on All hosts (#krb5-workstation, krb5-libs)
+  #Check the permissions of the account (this acount must have permissions to create other accounts)
+
+
+ 

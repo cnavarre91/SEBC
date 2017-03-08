@@ -1,7 +1,5 @@
-Command:
+Command: 
  # curl -X GET -u "cnavarre91:cloudera" -i http://ip-172-31-16-117.eu-west-1.compute.internal:7180/api/v2/cm/deployment
- 
-Output:
 Date: Wed, 08 Mar 2017 10:49:10 GMT
 Transfer-Encoding: chunked
 Server: Jetty(6.1.26.cloudera.4)
@@ -1114,4 +1112,3 @@ Server: Jetty(6.1.26.cloudera.4)
       "value" : "https://archive.cloudera.com/cdh5/parcels/{latest_supported}/,https://archive.cloudera.com/cdh4/parcels/latest/,https://archive.cloudera.com/impala/parcels/latest/,https://archive.cloudera.com/search/parcels/latest/,https://archive.cloudera.com/accumulo/parcels/1.4/,https://archive.cloudera.com/accumulo-c5/parcels/latest/,https://archive.cloudera.com/kafka/parcels/latest/,https://archive.cloudera.com/navigator-keytrustee5/parcels/latest/,https://archive.cloudera.com/spark/parcels/latest/,https://archive.cloudera.com/sqoop-connectors/parcels/latest/"
     } ]
   }
-}

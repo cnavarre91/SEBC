@@ -6,3 +6,16 @@ Line that contains the phrase "Started Jetty server"
                 [root@ip-192-168-0-209 cloudera-scm-server]# grep -n "Started Jetty server" cloudera-scm-server.log
                 30815:2017-03-10 05:07:08,147 INFO WebServerImpl:com.cloudera.server.cmf.WebServerImpl: Started Jetty server.
 
+File db_properties:
+com.cloudera.cmf.db.type=mysql
+com.cloudera.cmf.db.host=localhost
+com.cloudera.cmf.db.name=scm
+com.cloudera.cmf.db.user=root
+com.cloudera.cmf.db.setupType=EXTERNAL
+com.cloudera.cmf.db.password=cloudera
+~
+~
+~
+~
+~
+~

@@ -1,13 +1,13 @@
-1-Verify user privileges
+##1-Verify user privileges
 
-[root@ip-192-168-0-75 ~]# beeline
-Beeline version 1.1.0-cdh5.10.0 by Apache Hive
-beeline> !connect jdbc:hive2://ip-192-168-0-75.eu-west-1.compute.internal:10000/default;principal=hive/ip-192-168-0-75.eu-west-1.compute.internal@CNAVARRE.ES
-scan complete in 2ms
-Connecting to jdbc:hive2://ip-192-168-0-75.eu-west-1.compute.internal:10000/default;principal=hive/ip-192-168-0-75.eu-west-1.compute.internal@CNAVARRE.ES
-Connected to: Apache Hive (version 1.1.0-cdh5.10.0)
-Driver: Hive JDBC (version 1.1.0-cdh5.10.0)
-Transaction isolation: TRANSACTION_REPEATABLE_READ
+##[root@ip-192-168-0-75 ~]# beeline
+##Beeline version 1.1.0-cdh5.10.0 by Apache Hive
+##beeline> !connect jdbc:hive2://ip-192-168-0-75.eu-west-1.compute.internal:10000/default;principal=hive/ip-192-168-0-75.eu-west-##1.compute.internal@CNAVARRE.ES
+##scan complete in 2ms
+##Connecting to jdbc:hive2://ip-192-168-0-75.eu-west-1.compute.internal:10000/default;principal=hive/ip-192-168-0-75.eu-west-##1.compute.internal@CNAVARRE.ES
+##Connected to: Apache Hive (version 1.1.0-cdh5.10.0)
+##Driver: Hive JDBC (version 1.1.0-cdh5.10.0)
+##Transaction isolation: TRANSACTION_REPEATABLE_READ
 0: jdbc:hive2://ip-192-168-0-75.eu-west-1.com>
 0: jdbc:hive2://ip-192-168-0-75.eu-west-1.com>
 0: jdbc:hive2://ip-192-168-0-75.eu-west-1.com> SHOW TABLES;

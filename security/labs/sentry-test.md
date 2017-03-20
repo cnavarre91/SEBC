@@ -1,4 +1,5 @@
-##1-Verify user privileges
+
+### 1-Verify user privileges
 
 ##[root@ip-192-168-0-75 ~]# beeline
 ##Beeline version 1.1.0-cdh5.10.0 by Apache Hive

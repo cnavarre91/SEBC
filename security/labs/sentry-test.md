@@ -1,3 +1,5 @@
+1-Verify user privileges
+
 [root@ip-192-168-0-75 ~]# beeline
 Beeline version 1.1.0-cdh5.10.0 by Apache Hive
 beeline> !connect jdbc:hive2://ip-192-168-0-75.eu-west-1.compute.internal:10000/default;principal=hive/ip-192-168-0-75.eu-west-1.compute.internal@CNAVARRE.ES

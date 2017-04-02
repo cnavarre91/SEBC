@@ -1,9 +1,10 @@
 Teragen command:
+```
 time hadoop jar /opt/cloudera/parcels/CDH-5.10.0-1.cdh5.10.0.p0.41/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -D dfs.block.size=16777216 65536000 /user/neymar/tgen640_file
+```
 
 
-
-
+```
 [root@ip-192-168-0-125 ~]# time hadoop jar /opt/cloudera/parcels/CDH-5.10.0-1.cdh5.10.0.p0.41/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -D dfs.block.size=16777216 65536000 /user/neymar/test_file
 17/03/14 13:29:10 INFO client.RMProxy: Connecting to ResourceManager at ip-192-168-0-125.eu-west-1.compute.internal/192.168.0.125:8032
 17/03/14 13:29:11 INFO hdfs.DFSClient: Created token for neymar: HDFS_DELEGATION_TOKEN owner=neymar@CNAVARRE.ES, renewer=yarn, realUser=, issueDate=1489512551148, maxDate=1490117351148, sequenceNumber=18, masterKeyId=8 on 192.168.0.125:8020
@@ -78,9 +79,11 @@ time hadoop jar /opt/cloudera/parcels/CDH-5.10.0-1.cdh5.10.0.p0.41/lib/hadoop-ma
 real    2m0.833s
 user    0m6.435s
 sys     0m0.251s
-
+```
+```
 [hdfs@ip-192-168-0-127 ~]$ hdfs dfs -ls /user/neymar/tgen640_file
 Found 3 items
 -rw-r--r--   3 neymar supergroup          0 2017-03-14 13:40 /user/neymar/tgen640_file/_SUCCESS
 -rw-r--r--   3 neymar supergroup 3276800000 2017-03-14 13:40 /user/neymar/tgen640_file/part-m-00000
 -rw-r--r--   3 neymar supergroup 3276800000 2017-03-14 13:40 /user/neymar/tgen640_file/part-m-00001
+```

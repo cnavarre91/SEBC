@@ -1,3 +1,4 @@
+```
 Cloud provider-> AWS
 Nodes ->
       ec2-34-252-142-89.eu-west-1.compute.amazonaws.com -> 34.252.142.89 (192.168.0.56)
@@ -57,3 +58,4 @@ Listing /etc/group ->
            barca:x:2011:ronaldo
            merengues:x:2013:neymar
 
+```
